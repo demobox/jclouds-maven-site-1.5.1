@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-10-01T01:42:40.505">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.1/apis/swift/src/main/java/org/jclouds/openstack/swift/CommonSwiftClient.java">
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="56" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.swift" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.blobstore.ContainerNotFoundException'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.1/apis/swift/src/main/java/org/jclouds/openstack/swift/blobstore/SwiftBlobRequestSigner.java">
+<violation beginline="19" endline="152" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.swift.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.1/apis/swift/src/main/java/org/jclouds/openstack/swift/blobstore/config/SwiftBlobStoreContextModule.java">
+<violation beginline="41" endline="41" begincolumn="1" endcolumn="22" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.swift.blobstore.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.UUID'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.1/apis/swift/src/main/java/org/jclouds/openstack/swift/domain/internal/DelegatingMutableObjectInfoWithMetadata.java">
+<violation beginline="60" endline="60" begincolumn="15" endcolumn="24" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.openstack.swift.domain.internal" class="DelegatingMutableObjectInfoWithMetadata" method="hashCode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.1/apis/swift/src/main/java/org/jclouds/openstack/swift/functions/ParseTemporaryUrlKeyFromHeaders.java">
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="58" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.swift.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.openstack.swift.reference.SwiftHeaders'
+</violation>
+</file>
+</pmd>
